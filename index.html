@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="form">
+        <input type="email" name="email" id="email" placeholder="email" />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="password"
+        />
+      </div>
+      <div id="buttons">
+        <button type="submit" id="signup-btn">Sign Up</button>
+        <button type="submit" id="signin-btn">Sign In</button>
+      </div>
+    </div>
+
+    <div class="section-1">
+      <div class="card">
+        <div class="search">
+          <input
+            type="text"
+            name=""
+            id="city_input"
+            placeholder="enter the city name"
+            spellcheck="false"
+          />
+          <button id="search-btn"><img src="images/search.png" alt="search" /></button>
+        </div>
+        <div class="weather1">
+          <img src="images/rain.png" class="weather_icon" alt="weather image" />
+          <h1 class="temp">22 C</h1>
+          <h2 class="city">New York</h2>
+          <div class="details">
+              <div class="col">
+                  <img src="images/humidity.png" alt="humidity img">
+                  <div>
+                      <p class="humidity">50%</p>
+                      <p>humidity</p>
+                  </div>
+              </div>
+              <div class="col">
+                  <img src="images/wind.png" alt="humidity img">
+                  <div>
+                      <p class="wind">15 km/h</p>
+                      <p>Wind Speed</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <button type="submit" id="signout-btn">Sign Out</button>
+    </div>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
