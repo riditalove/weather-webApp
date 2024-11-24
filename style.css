@@ -153,3 +153,32 @@ body {
   margin: 30px auto;
   font-weight: bolder;
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 50px 10px;
+  }
+  .search {
+    margin: 5px 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 5px 5px;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
